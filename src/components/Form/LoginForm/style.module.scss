@@ -1,0 +1,39 @@
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+%button {
+    display: flex;
+    width: 20.375rem;
+    height: 3rem;
+    padding: 0px 1.3959rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10.152px;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: var(--grey-0);
+}
+
+.btnPink{
+    @extend %button;
+    border: 0.0761rem solid var(--color-primary, #59323F);
+    background: var(--color-primary, #59323F);
+    width: 100%
+}
+    
+
+.btnGrey{
+    @extend %button;
+        background-color: var(--grey-1);
+        border: 0.0761rem solid var(--grey-1, #59323F);
+        
+
+    }
+
+    

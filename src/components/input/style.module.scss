@@ -1,0 +1,14 @@
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input{
+        padding: 0 1rem;
+        background-color: var(--grey-2);
+        height: 3rem;
+        margin-bottom: 0.9375rem;
+        border: none;
+        border-radius: 5px;
+    }
+}

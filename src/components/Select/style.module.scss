@@ -1,0 +1,15 @@
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    select{
+        padding: 0 1rem;
+        background-color: var(--grey-2);
+        color: var(--grey-1);
+        height: 3rem;
+        margin-bottom: 0.9375rem;
+        border: none;
+        border-radius: 5px;
+    }
+}
