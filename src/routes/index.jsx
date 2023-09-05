@@ -15,7 +15,7 @@ export const RoutesMain = () => {
         <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/dashBoard" element={<ProtectedRoute />}>
-          <Route index element={<DashBoardPage />} />
+          <Route index element={<DashBoardPage />} /> 
         </Route>
       </Routes>
     </UserProvider>
